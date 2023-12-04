@@ -24,7 +24,7 @@ if type(yup) == str:
                      '<a style="text-decoration: none;" href="https://portal.lawn.gatech.edu/devices">Ps4 Wifi Reset</a>',
                      '<a style="text-decoration: none;" href="https://portal.lawn.gatech.edu/devices">Notability</a>',
                      '<a style="text-decoration: none;" href="https://outlook.office.com/mail/deleteditems">Outlook</a>',
-                     '<a style="text-decoration: none;" href="https://github.com/Gottogomo/homepage/edit/main/streamlit_app.py">Edit This</a>']
+                     '<a style="text-decoration: none;" href="https://share.streamlit.io/">Edit This</a>']
     
     for function in function_list:
         expander.markdown(function,unsafe_allow_html=True)
