@@ -32,5 +32,8 @@ if type(yup) == str:
 else:
     
     if yup == 2023:
-        st.write("I'm Lazy, Goodluck")
+        st.write("I'm Lazy, Goodluck Bro")
+
+    if yup == 2024:
+        st.write("I got it to work!!")
     
