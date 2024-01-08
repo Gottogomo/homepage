@@ -40,15 +40,16 @@ else:
         st.write("---")
 
         if (class_choice == "ECE 2026") :
-            st.write("ECE 2026")
+            st.markdown('<a style="text-decoration: none;" href="https://gatech.instructure.com/courses/355166">ECE 2026-A Canvas</a>',unsafe_allow_html=True)
+            st.markdown('<a style="text-decoration: none;" href="https://gatech.instructure.com/courses/355252">ECE 2026-L01 Canvas</a>',unsafe_allow_html=True)
 
         elif (class_choice == "ECE 2020") :
-            st.write("ECE 2020")
+            st.markdown('<a style="text-decoration: none;" href="https://gatech.instructure.com/courses/359986">ECE 2020 Canvas</a>',unsafe_allow_html=True)
 
         elif (class_choice == "PHYS 2211") :
-            st.write("PHYS 2211")
+            st.markdown('<a style="text-decoration: none;" href="https://gatech.instructure.com/courses/362324/assignments/syllabus">PHYS 2211 Canvas</a>',unsafe_allow_html=True)
 
         elif (class_choice == "MATH 2552") :
-            st.write("MATH 2552")
+            st.markdown('<a style="text-decoration: none;" href="https://gatech.instructure.com/courses/357546">MATH 2552 Canvas</a>',unsafe_allow_html=True)
 
     
