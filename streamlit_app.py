@@ -33,7 +33,8 @@ if type(yup) == str:
         expander.markdown(function,unsafe_allow_html=True)
 
     today = date.today()
-    st.write(str(today))
+    st.write(today)
+    st.write("Date goes here")
         
 else:
     
