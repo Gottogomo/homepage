@@ -36,7 +36,7 @@ else:
 
     if yup == 2024:
         with st.expander("**Classes**",True):
-            class_choice = st.radio("",["ECE 2026","ECE 2020","PHYS 2211","MATH 2552"])
+            class_choice = st.radio("",["ECE 2026","ECE 2020","PHYS 2212","MATH 2552"])
         st.write("---")
         # st.markdown('<a style="text-decoration: none;" href="">Name</a>',unsafe_allow_html=True)
 
@@ -48,7 +48,7 @@ else:
         elif (class_choice == "ECE 2020") :
             st.markdown('<a style="text-decoration: none;" href="https://gatech.instructure.com/courses/359986">ECE 2020 Canvas</a>',unsafe_allow_html=True)
 
-        elif (class_choice == "PHYS 2211") :
+        elif (class_choice == "PHYS 2212") :
             st.markdown('<a style="text-decoration: none;" href="https://gatech.instructure.com/courses/362324/assignments/syllabus">PHYS 2211 Canvas</a>',unsafe_allow_html=True)
             st.markdown('<a style="text-decoration: none;" href="https://participant.turningtechnologies.com/en/join">Point Solutions</a>',unsafe_allow_html=True)
             st.markdown('<a style="text-decoration: none;" href="https://gatech.instructure.com/courses/362324/files/folder/GPS%20-%20Group%20Problem%20Solving">GPS Files</a>',unsafe_allow_html=True)
