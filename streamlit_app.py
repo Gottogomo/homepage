@@ -2,6 +2,9 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 
+from datetime import date
+ 
+
 # [theme]
 # base="dark"
 # backgroundColor="#100543"
@@ -28,6 +31,9 @@ if type(yup) == str:
     
     for function in function_list:
         expander.markdown(function,unsafe_allow_html=True)
+
+    today = date.today()
+    st.write(str(today))
         
 else:
     
