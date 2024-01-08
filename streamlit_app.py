@@ -35,5 +35,20 @@ else:
         st.write("I'm Lazy, Goodluck Bro")
 
     if yup == 2024:
-        st.write("I got it to work!!")
+        with st.expander("**Classes**",True):
+            class_choice = st.radio("",["ECE 2026","ECE 2020","PHYS 2211","MATH 2552"])
+        st.write("---")
+
+        if (class_choice == "ECE 2026") :
+            st.write("ECE 2026")
+
+        elif (class_choice == "ECE 2020") :
+            st.write("ECE 2020")
+
+        elif (class_choice == "PHYS 2211") :
+            st.write("PHYS 2211")
+
+        elif (class_choice == "MATH 2552") :
+            st.write("MATH 2552")
+
     
